@@ -29,6 +29,7 @@ copy both files and directories.
 - **2/14/16:** Improved the `datestring()` function to return the day of the week, as well as the superscript after the day.  Added the `$_time_zone_` variable
 to set a default timezone for all of PHP's date & time functions.  FINALLY added a public `$_version_` variable too. ;)
 - **2/29/16:** Version 1.0.1, added the `trim()` function to the results of the `get()` method to clean out extra spaces before and after.
+- **3/2/16:** Version 1.0.2, added `destroy()` method to close the database connection, and set this function to be automatically called on script shutdown.
 
 ## Method List:
 

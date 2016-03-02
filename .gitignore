@@ -1,0 +1,7 @@
+*.xml
+docx_images/*
+markdown.php
+ot.txt
+ot1.txt
+index.php
+dbcon.php

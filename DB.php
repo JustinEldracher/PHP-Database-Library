@@ -48,6 +48,11 @@ Class DB {
 		@mysql_select_db($this->_db_);
 		$this->stable($table);
 		ini_set("date.timezone", $this->_time_zone_);
+		register_shutdown_function(array($this, "destroy"));
+	}
+	
+	public function destroy() {
+		@mysql_close($this->_dbconn_);
 	}
 	
 	public function getall() {
