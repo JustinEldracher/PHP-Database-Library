@@ -39,6 +39,9 @@ Initializes the database connection and selects a database.  Sets the table also
 $db = new DB("my_table");
 ```
 
+####destroy();
+Closes the database connection.
+
 ####getall();
 Returns an associative matrix of the databases and their tables on the current MySQL connection.
 ```php
