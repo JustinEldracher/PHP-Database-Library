@@ -31,6 +31,8 @@ to set a default timezone for all of PHP's date & time functions.  FINALLY added
 - **2/29/16:** Version 1.0.1, added the `trim()` function to the results of the `get()` method to clean out extra spaces before and after.
 - **3/2/16:** Version 1.0.2, added `destroy()` method to close the database connection, and set this function to be automatically called on script shutdown.
 
+## MySQLi support coming soon!
+
 ## Method List:
 
 ####init([default table]);
